@@ -1,0 +1,157 @@
+body{
+    background: #0a192F;
+}
+
+.contener{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+     margin:10px 50px;
+    box-shadow: inset 0px 0px 25px 10px #0a192F;
+    border: 1px solid red;
+   
+}
+.navigationcontener{
+    display: flex;
+    /* border: 1px solid rgb(29, 131, 29); */
+   
+
+}
+
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;    
+}
+.navigation{
+   display: flex; 
+}
+.navigation ul li{
+    display: flex;
+    /* margin-right: 10px; */
+    
+    
+}
+
+.navigation ul li a{
+text-decoration: none;
+color:#ccd6F6
+}
+  
+
+.contener a span{
+    color:#64ffda;
+}
+
+
+  /* .contener button{
+      height: 40px;
+      width: 80px;
+     padding: 0 4;
+     font-size: 14px;
+     border: 1px solid #64ffda;
+     color: #64ffda;
+     background-color: #0a192F;;  
+ } */
+
+ .resume-button{
+     text-decoration: none;
+     padding:0.75rem 1rem;
+     background-color: transparent; 
+     border: 1px solid #64ffda;
+     border-radius: 4px;
+     line-height: 1;
+     margin-left: 15px;
+    
+     font-size: 14px;
+     color: #64ffda;
+     cursor: pointer;
+     height: 40px;
+     width: 80px;
+    
+
+
+ }
+
+ /* .contener img{
+     height: 50px;
+     width:50px ;
+    
+ } */
+
+ .contener img{
+     display: flex;
+     -webkit-box-pack: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     align-items: center;
+     width: 50px;
+     height: 50px;
+     
+ }
+
+
+ .contener span {
+     padding: 0px 10px;
+ }
+
+ .contener-icon{
+     display: none;
+ }
+/* 
+ .contener-icon i{
+     align-items: center;
+
+ /* } */
+  @media screen  and (max-width:768px){
+     .navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-end;
+    border: 1px solid red;
+
+    
+} 
+.navigationcontener{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1pxsolid #fff;
+    position: absolute;
+    top: 80px;
+    left: -110%;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.navigationcontener.active{
+background: #112240;
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+.contener-icon{
+    display: block;
+} 
+.navigation ul{
+   display: flex; 
+   flex-direction: column;
+   justify-items: end;
+   width: 170px;
+   
+}
+.navigation nav{
+    border: 1px solid green;
+}
+
+ } 
+
+
+
+
+
+
+
+
