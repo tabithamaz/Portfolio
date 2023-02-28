@@ -6,16 +6,13 @@ body{
     display: flex;
     justify-content:space-between;
     align-items: center;
-     margin:10px 50px;
+    margin:10px 50px;
     box-shadow: inset 0px 0px 25px 10px #0a192F;
-    border: 1px solid red;
-   
+    padding-top: 10px;
 }
+
 .navigationcontener{
     display: flex;
-    /* border: 1px solid rgb(29, 131, 29); */
-   
-
 }
 
 .navigation ul{
@@ -23,14 +20,22 @@ body{
     flex-direction: row;
     font-size: 14px;    
 }
+
 .navigation{
-   display: flex; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .navigation ul li{
     display: flex;
-    /* margin-right: 10px; */
-    
-    
+    font-size: 14px;    
+}
+
+.fadedown-enter-done{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .navigation ul li a{
@@ -56,18 +61,15 @@ color:#ccd6F6
 
  .resume-button{
      text-decoration: none;
-     padding:0.75rem 1rem;
      background-color: transparent; 
      border: 1px solid #64ffda;
      border-radius: 4px;
      line-height: 1;
      margin-left: 15px;
-    
      font-size: 14px;
      color: #64ffda;
      cursor: pointer;
-     height: 40px;
-     width: 80px;
+     padding: 10px 10px;
     
 
 
@@ -98,21 +100,19 @@ color:#ccd6F6
  .contener-icon{
      display: none;
  }
-/* 
+
  .contener-icon i{
      align-items: center;
 
- /* } */
-  @media screen  and (max-width:768px){
-     .navigation{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    align-items: flex-end;
-    border: 1px solid red;
-
-    
-} 
+  }
+@media screen  and (max-width:768px){
+     /* .navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: flex-end;
+        border: 1px solid red;   
+}  */
 .navigationcontener{
     display: flex;
     flex-direction: column;
@@ -134,6 +134,7 @@ background: #112240;
 }
 .contener-icon{
     display: block;
+    color: white;
 } 
 .navigation ul{
    display: flex; 
@@ -142,11 +143,7 @@ background: #112240;
    width: 170px;
    
 }
-.navigation nav{
-    border: 1px solid green;
-}
-
- } 
+} 
 
 
 

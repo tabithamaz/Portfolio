@@ -1,6 +1,5 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import image1 from "../../assets/Group2.png"
-
 
 function Header() {
     const [clicked, setClicked] = useState(false)
@@ -12,9 +11,9 @@ function Header() {
 
     return (
         <>
-            <div className= "contener">
+            <div className="contener">
                 <img src={image1} alt="logo" />
-                <div className={clicked ? "navigationcontener  active" :"navigationcontener"} >
+                <div className={clicked ? "navigationcontener  active" : "navigationcontener"} >
                     <nav className="navigation" >
                         <ul>
                             <li>
@@ -33,25 +32,24 @@ function Header() {
 
                             </li>
                         </ul>
-                        <div className='fadedown-enter-done'>
-                            <a className='resume-button' href='/resume.pdf' target='_b lank' rel='noopener norefferrer'>Resume</a>
-                        </div>
                     </nav>
+                    <div className='fadedown-enter-done'>
+                        <a className='resume-button' href='/resume.pdf' target='_b lank' rel='noopener norefferrer'>Resume</a>
+                    </div>
                 </div>
-                <div className='contener-icon' onClick={changestate}>
-                    <i className=
+                <div className='contener-icon' style={{ color: 'white' }} onClick={changestate}>
+                    {/* <i className=
                         {
-                            clicked ? "fas fa-times" : "fas fa-bars"
+                            clicked ? "fas fa-times" : "fa-solid fa-bars-sort"
                         }
                         style={{ color: 'white' }}
-                    >
-                    </i>
-
+                    >MERCI
+                    </i> */}
+                    {clicked ? "OK" : <i class="fa-solid fa-bars-sort"></i>}
                 </div>
             </div>
         </>
     )
-
 }
 
 export default Header;
