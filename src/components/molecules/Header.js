@@ -13,39 +13,42 @@ function Header() {
         <>
             <div className="contener">
                 <img src={image1} alt="logo" />
-                <div className={clicked ? "navigationcontener  active" : "navigationcontener"} >
-                    <nav className="navigation" >
+                <div className={"navigationcontener  active" } >
+                    <nav className={clicked ? "navigation visible" :"hidden"} >
                         <ul>
                             <li>
-                                <a className='' href="#About"> <span>01. </span>About</a>
+                                <a className='' href="#About"> <span>01.</span>About</a>
                             </li>
                             <li>
-                                <a href="#experiences"> <span>02. </span>Experiences</a>
+                                <a href="#experiences"> <span>02.</span>Experiences</a>
+                            </li>
+                            
+                            <li>
+                                <a href="#work"><span> 03.</span>Work</a>
                             </li>
 
                             <li>
-                                <a href="#work"><span> 03. </span>Work</a>
-                            </li>
-
-                            <li>
-                                <a href="#contact" > <span>04. </span> contact</a>
+                                <a href="#contact" > <span>04.</span> contact</a>
 
                             </li>
                         </ul>
+                        <div className='fadedown-enter-done'>
+                            <a className='resume-button' href='/resume.pdf' target='_b lank' rel='noopener norefferrer'>Resume</a>
+                        </div>
                     </nav>
-                    <div className='fadedown-enter-done'>
+                    {/* <div className='fadedown-enter-done'>
                         <a className='resume-button' href='/resume.pdf' target='_b lank' rel='noopener norefferrer'>Resume</a>
-                    </div>
+                    </div> */}
                 </div>
-                <div className='contener-icon' style={{ color: 'white' }} onClick={changestate}>
-                    {/* <i className=
+                <div className='contener-icon'  onClick={changestate}>
+                     <i className=
                         {
-                            clicked ? "fas fa-times" : "fa-solid fa-bars-sort"
+                        !clicked ? "fas fa-times" : "fas fa-bars" 
                         }
-                        style={{ color: 'white' }}
-                    >MERCI
-                    </i> */}
-                    {clicked ? "OK" : <i class="fa-solid fa-bars-sort"></i>}
+                        // style={{ color: 'white' }}
+                    >
+                    </i> 
+                    
                 </div>
             </div>
         </>
