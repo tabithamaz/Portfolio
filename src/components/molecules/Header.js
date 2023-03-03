@@ -13,8 +13,8 @@ function Header() {
         <>
             <div className="contener">
                 <img src={image1} alt="logo" />
-                <div className={"navigationcontener  active" } >
-                    <nav className={clicked ? "navigation visible" :"hidden"} >
+                <div className={"navigationcontener  active"} >
+                    <nav className={clicked ? "navigation visible" : "hidden"} >
                         <ul>
                             <li>
                                 <a className='' href="#About"> <span>01.</span>About</a>
@@ -22,7 +22,7 @@ function Header() {
                             <li>
                                 <a href="#experiences"> <span>02.</span>Experiences</a>
                             </li>
-                            
+
                             <li>
                                 <a href="#work"><span> 03.</span>Work</a>
                             </li>
@@ -40,15 +40,15 @@ function Header() {
                         <a className='resume-button' href='/resume.pdf' target='_b lank' rel='noopener norefferrer'>Resume</a>
                     </div> */}
                 </div>
-                <div className='contener-icon'  onClick={changestate}>
-                     <i className=
+                <div className='contener-icon' onClick={changestate}>
+                    <i className=
                         {
-                        !clicked ? "fas fa-times" : "fas fa-bars" 
+                            !clicked ? "fas fa-times" : "fas fa-bars"
                         }
-                        // style={{ color: 'white' }}
+                    // style={{ color: 'white' }}
                     >
-                    </i> 
-                    
+                    </i>
+
                 </div>
             </div>
         </>
