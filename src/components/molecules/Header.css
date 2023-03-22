@@ -6,9 +6,10 @@ body{
     display: flex;
      justify-content:space-between;
     align-items: center;
-    margin:10px 50px;
+    margin:10px 30px;
     box-shadow: inset 0px 0px 25px 10px #0a192F;
-    padding-top: 10px;
+    /* padding-top: 10px; */
+   
     
 } 
 
@@ -26,8 +27,7 @@ body{
 
 .navigation{
    display: flex;
-   /* justify-content: center; */
-   align-items: center;
+   text-align: center;
    
  
 }
@@ -133,19 +133,29 @@ color:#ccd6F6
      color: #64ffda;
 
   }
+
+/* .socialsGrid{
+    display: flex;
+    flex-direction: column;
+} */
+
+
 @media screen  and (max-width:768px){
+    .contener{
+        display: flex;
+        justify-content: space-between;
+    }
 
 
       .navigation {
-         display: flex; 
+         display: flex;
+         
          
      
 }  
 .navigation.hidden{
     display: flex;
     flex-direction: column;
-     position: absolute; 
-    right: 0;      
    
 }
 
@@ -156,12 +166,14 @@ color:#ccd6F6
 .contener nav{
     /* border: 1px solid red; */
      height: 100vh; 
+     
 
 }
 
 
 .contener{
     display: flex;
+    
      
     
 } 
@@ -216,10 +228,12 @@ color:#ccd6F6
     right: 4Px;
     opacity: 1; 
     height:100vh;
-    width: 50%;
+    width: 58vw;
     background-color: #112240;
-    padding-top: 75px;
-    /* border-top: 10px solid red;  */
+    /* padding:10px; */
+    align-items: center;
+    justify-content: center;
+ 
    
     
 }
@@ -227,13 +241,20 @@ color:#ccd6F6
  .hidden ul{
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
     
 
 } 
 .hidden ul li a{
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
+    align-items: center;
+    padding: 15px 5px;
+    justify-content: center;
+    /* margin-top: 25px; */
+    /* align-items: center; */
 
     
 }
@@ -245,10 +266,13 @@ color:#ccd6F6
     transform: translate(-100%,60%); 
     font-size: 1.8rem;
     
+    
 } 
   
  
 }
+
+
 
 
 

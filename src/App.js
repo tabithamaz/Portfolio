@@ -3,6 +3,8 @@ import './App.css';
 import Header from './components/molecules/Header';
 import "./components/molecules/Header.css";
 import About from "./components/molecules/About";
+import Icones from './components/molecules/Home';
+import Home from './components/molecules/Home'
 
 function App() {
   const data ={
@@ -16,6 +18,7 @@ function App() {
   return (
     <> 
       <Header />
+      <Home />
       {/* <About data={data} /> */}
       </>
    
