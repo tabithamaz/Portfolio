@@ -147,12 +147,12 @@ color:#ccd6F6
     }
 
 
-      .navigation {
+    .navigation {
          display: flex;
-         
-         
-     
 }  
+.resume-button{
+    margin: 0px;
+}
 .navigation.hidden{
     display: flex;
     flex-direction: column;
@@ -251,7 +251,7 @@ color:#ccd6F6
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px 5px;
+    padding: 15px 30px;
     justify-content: center;
     /* margin-top: 25px; */
     /* align-items: center; */
@@ -268,6 +268,17 @@ color:#ccd6F6
     
     
 } 
+
+ .resume-button{
+     text-decoration: none;
+     background-color: transparent; 
+     border: 1px solid #64ffda;
+     border-radius: 4px;
+     line-height: 1;
+     /* margin-left: 16px; */
+     
+
+ } 
   
  
 }

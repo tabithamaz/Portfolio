@@ -12,7 +12,7 @@ function Header() {
     return (
         <>
             <div className="contener">
-                <img src={image1} alt="logo" />
+                    <img src={image1} alt="logo" />
                 <div className={"navigationcontener  active"} >
                     <nav className={clicked ? "navigation visible" : "hidden"} >
                         <ul>
