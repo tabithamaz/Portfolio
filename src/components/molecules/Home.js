@@ -18,7 +18,7 @@ function Home(){
                     <a><FiTwitter className="icon" /></a>
                     <a><FiLinkedin className="icon" /></a>
                     <a><AiFillCodepenCircle className='icon' /></a>
-                    <div className="line">
+                  <div className="line">
                     </div>
                 </div>
                 </div> 

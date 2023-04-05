@@ -51,9 +51,8 @@
   min-height: 100vh;
   justify-content: center;
  /* max-width: 1000px; */
- align-items: center;
- /* padding: 0px; */
- /* margin:0px 20px;  */
+ /* align-items: center; */
+ 
 }
 
 .homeContainer{
@@ -106,8 +105,10 @@
   background-color: #0a192F;
   border: 1px solid #64ffda;
   border-radius: 5px;
-  color: #64ffda;
   text-decoration: none;
+}
+.containerBtn a{
+color: #64ffda;
 }
 
 /* .containerBtn:hover{
@@ -152,7 +153,7 @@ margin-bottom: 120px;
 }
 .rightEmail{
   content: '';
-    background:#a8b2d1 ;
+    background:#ccd6F6 ;
     height: 100px;
     width: 1px;
     margin-left: 129px;
@@ -161,7 +162,7 @@ margin-bottom: 120px;
 
  .line{
     content: '';
-    background:#a8b2d1 ;
+    background:#ccd6F6 ;
     height: 100px;
     width: 1px;
     margin-left: 19px;
