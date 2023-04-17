@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/molecules/Header';
 import "./components/molecules/Header.css";
-import About from "./components/molecules/About";
+import About from "./components/organismes/About";
 import Icones from './components/molecules/Home';
 import Home from './components/molecules/Home'
 
@@ -19,6 +19,7 @@ function App() {
     <>
       <Header />
       <Home />
+      <About/>
      
     </>
 

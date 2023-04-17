@@ -50,8 +50,7 @@
   flex-direction: column;
   min-height: 100vh;
   justify-content: center;
- /* max-width: 1000px; */
- /* align-items: center; */
+ 
  
 }
 
@@ -173,7 +172,119 @@ margin-bottom: 120px;
     padding: 10px;
   } 
 
+ 
   
+  .sectionTitle P{
+    display: block;
+    margin: 0px 0px 15px;
+    padding: 0px 150px;
+    color:#ccd6F6;
+    width: 50%;
+  }
+
+  .titleText{
+    display: flex;
+    margin: 10px 141px 40px;
+    color:#ccd6F6 ;
+    
+  }
+  
+  .line1{
+    content: "";
+    background-color: #ccd6F6;
+    display: block;
+    position: relative;
+    top: 27px;
+    width: 257px;
+    height: 1px;
+    margin-left: 304px;
+    font-size: 1px;
+  
+  }
+
+  .titleText span{
+    color:#64ffda; ;
+  }
+  .contenerAbout{
+    display: flex;
+    
+  }
+
+  .textSection {
+     width: 50%;
+  }
+  
+  .textSection p a{
+    color:#64ffda; 
+   
+  }
+.aboutImgDiv{
+  width: 30%;
+  height: 400px;
+  position: relative;
+  border: 1px solid #64ffda;
+    /* background-color: #64ffda; */
+  
+  
+  
+}
+
+  .aboutImgDiv img {
+    position:absolute; 
+    left: -25px;
+    top: -25px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-self: center;
+    justify-self: center;
+    /* overflow: hidden;
+    display: grid;
+    grid-template-columns: 3fr 2fr; */
+
+  }
+
+  .aboutImgDi img::before{
+  background-color: #61dafb;
+  font-size: 1.6rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  background-color: #61dafb;
+  height: 97%;
+  width: 97%;
+  
+
+  }
+
+  .skillsList{
+    display:grid;
+  grid-template-columns: repeat(2,minmax(140px,200px));
+    list-style: none;
+    color: #a8b2d1;
+    
+    gap: 0px 10px;
+   margin-left: 59px;
+  
+  }
+
+   /* .skillsList li {
+  
+  color: red;
+   } */
+
+   .skillsList li::before
+   {
+     content: "▹";
+    position: absolute;
+    color: var(--green);
+    font-size:var(--fz-sm);
+    line-height: 12px;
+ color:#64ffda;
+ margin-left: -20px;
+   }
   
   
 
