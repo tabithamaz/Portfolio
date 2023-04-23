@@ -2,7 +2,7 @@ import react from "react"
 
 function Button({text}){
     return(
-        <button>{text}</button>
+        <button className="containerBtn" >{text}</button>
     )
 }
 
