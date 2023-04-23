@@ -5,6 +5,7 @@ import "./components/molecules/Header.css";
 import About from "./components/organismes/About";
 import Icones from './components/molecules/Home';
 import Home from './components/molecules/Home'
+import Experiences from './components/organismes/Experiences';
 
 function App() {
   const data = {
@@ -20,6 +21,7 @@ function App() {
       <Header />
       <Home />
       <About/>
+      <Experiences/>
      
     </>
 
