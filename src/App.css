@@ -109,7 +109,16 @@
   border: 1px solid #64ffda;
   border-radius: 5px;
   text-decoration: none;
+
 }
+
+.containerBtn:hover {
+  outline: none;
+  box-shadow: 4px 4px 0 0 #64ffda;
+  transform: translate(-5px, -5px);
+
+}
+
 
 .containerBtn a {
   color: #64ffda;
@@ -253,6 +262,30 @@ a {
     display: grid;
     grid-template-columns: 3fr 2fr; */
 
+  transition: all ease .3ms;
+
+}
+
+.aboutImgDiv img:hover {
+  opacity: .2;
+}
+
+.imageOverlay {
+  background-color: #61dafb;
+  transition: all ease .3ms;
+  position: absolute;
+  left: -25px;
+  top: -25px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  align-self: center;
+  justify-self: center;
+  opacity: 0.6;
+}
+
+.imageOverlay:hover {
+  opacity: 0;
 }
 
 .aboutImgDi img::before {
@@ -632,4 +665,32 @@ button {
 
 .titleSection span {
   color: #64ffda;
+}
+
+.buttonContainer {
+  margin: 1em auto;
+  width: 50%;
+}
+
+.sectionContact span {
+  color: #64ffda;
+}
+
+.sectionContact {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 4em auto;
+  padding: 0 10%;
+  text-align: center;
+}
+
+.sectionContact p {
+  margin: 0px auto;
+  width: 60%;
+  color: #8892B0;
+}
+
+.sectionContact h2 {
+  color: #ccd6F6;
 }

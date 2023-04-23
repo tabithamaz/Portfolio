@@ -56,6 +56,7 @@ function About(){
         </div>
                 <div className="aboutImgDiv">
                 <img src={image2} alt="michel buhedwe"/>
+                <div className="imageOverlay"></div>
                 </div>
 
         </div>

@@ -7,6 +7,7 @@ import Icones from './components/molecules/Home';
 import Home from './components/molecules/Home'
 import Experiences from './components/organismes/Experiences';
 import Work from './components/organismes/Work';
+import Contact from './components/organismes/Contact';
 
 function App() {
   const data = {
@@ -24,6 +25,7 @@ function App() {
       <About/>
       <Experiences/>
       <Work/>
+      <Contact/>
      
     </>
 

@@ -1,8 +1,14 @@
 import react from "react"
 
-function Button({text}){
-    return(
-        <button className="containerBtn" >{text}</button>
+function Button({ text, link }) {
+    return (
+        <button className="containerBtn" >
+
+            <a href={`${link}`} className="flex">
+                {text}
+            </a>
+
+        </button>
     )
 }
 

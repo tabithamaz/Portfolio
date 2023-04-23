@@ -1,5 +1,7 @@
 import React from "react";
-import image3 from "../../assets/halcyon.avif"
+import image3 from "../../assets/halcyon.avif";
+import image4 from "../../assets/demo.avif";
+import image5 from "../../assets/course-card.avif";
 import { FiGithub } from "react-icons/fi"
 import { MdOpenInNew, MdOutlineFolder } from "react-icons/md";
 import Button from "../atomes/Button";
@@ -103,7 +105,7 @@ function Work() {
 
                     <div className="workImageContainer">
 
-                        <img src={image3} alt="" />
+                        <img src={image4} alt="" />
                     </div>
 
 
@@ -114,7 +116,7 @@ function Work() {
                 <div className="cardWork">
                     <div className="workImageContainer">
 
-                        <img src={image3} alt="" />
+                        <img src={image5} alt="" />
                     </div>
 
                     <div className="details">
@@ -318,10 +320,12 @@ function Work() {
                         </div>
 
                     </div>
-
-                    <Button text="Load More" />
+                    <div className="buttonContainer">
+                        <Button text="Load More" link="#plus" />
+                    </div>
                 </div>
             </div>
+
         </>
     )
 }
