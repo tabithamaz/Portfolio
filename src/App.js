@@ -6,6 +6,7 @@ import About from "./components/organismes/About";
 import Icones from './components/molecules/Home';
 import Home from './components/molecules/Home'
 import Experiences from './components/organismes/Experiences';
+import Work from './components/organismes/Work';
 
 function App() {
   const data = {
@@ -22,6 +23,7 @@ function App() {
       <Home />
       <About/>
       <Experiences/>
+      <Work/>
      
     </>
 
