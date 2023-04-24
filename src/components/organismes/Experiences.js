@@ -9,7 +9,7 @@ function experiences(){
                 Where I’ve Worked
         </h2>
         <div className="inner">
-        <div className="jBtKSS">
+        <div className="jobs">
         <button className="buton2">
                     
                     </button> 
@@ -22,7 +22,7 @@ function experiences(){
         <button color="button5">
                     </button><span>Dewcis Solutions Ltd</span>
         </div>
-        <div className="panel"> 
+        <div className="jobsDescription"> 
         <h3>
             Engineer
             <span>
@@ -33,7 +33,7 @@ function experiences(){
         <p className="range">
         May 2018 - Present
         </p>
-        <div className="QgHxr ">
+                    <div className="jobsDescription1 ">
         <ul>
 <li>
      Managed back-end services and the interchange of data between the server and the users;

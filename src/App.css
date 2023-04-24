@@ -390,6 +390,7 @@ a {
   
 } */
 .numbered-heading {
+  margin-top: 50px;
   color: #ccd6F6;
   margin-left: 87px;
 }
@@ -413,8 +414,7 @@ a {
   display: flex;
 }
 
-.jBtKSS {
-
+.jobs {
   display: flex;
   align-content: center;
   flex-direction: column;
@@ -428,7 +428,7 @@ a {
 
 }
 
-.jBtKSS span {
+.jobs span {
   color: #8892B0;
   height: 35px;
   padding: 0px 20px 2px;
@@ -436,7 +436,7 @@ a {
   align-items: center;
 }
 
-.jBtKSS span:hover {
+.jobs span:hover {
   color: #64ffda;
   background-color: #233554;
   padding: 0px 20px 2px;
@@ -453,7 +453,7 @@ button {
   text-align: left;
 }
 
-.panel {
+.jobsDescription {
   height: 50px;
   width: 50%;
   padding: 0px 5px;
@@ -462,20 +462,20 @@ button {
 
 
 
-.QgHxr ul li {
+.jobsDescription1 ul li {
   position: relative;
   padding-left: 30px;
   margin-bottom: 10px;
 }
 
-.QgHxr ul {
+.jobsDescription1 ul {
   padding: 0px;
   margin: 0px;
   list-style: none;
   color: #8892B0
 }
 
-.QgHxr ul li::before {
+.jobsDescription1 ul li::before {
   content: "▹";
   position: absolute;
   left: 0px;
@@ -693,4 +693,13 @@ button {
 
 .sectionContact h2 {
   color: #ccd6F6;
+}
+
+.sectionFooter{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+    margin: 4em auto;
+    padding: 0 10%;
+    text-align: center;
 }

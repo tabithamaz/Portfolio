@@ -8,6 +8,7 @@ import Home from './components/molecules/Home'
 import Experiences from './components/organismes/Experiences';
 import Work from './components/organismes/Work';
 import Contact from './components/organismes/Contact';
+import Footer from './components/organismes/Footer';
 
 function App() {
   const data = {
@@ -26,6 +27,7 @@ function App() {
       <Experiences/>
       <Work/>
       <Contact/>
+      <Footer/>
      
     </>
 
