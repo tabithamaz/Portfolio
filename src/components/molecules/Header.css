@@ -1,0 +1,297 @@
+body{
+    background: #0a192F;
+}
+
+.contener{
+    display: flex;
+     justify-content:space-between;
+    align-items: center;
+    margin:10px 30px;
+    box-shadow: inset 0px 0px 25px 10px #0a192F;
+    /* padding-top: 10px; */
+   
+    
+} 
+
+.navigationcontener{
+    display: flex;
+}
+
+.navigation ul, .hidden ul{
+     display: flex;
+    flex-direction: row;
+    font-size: 14px; 
+  
+     
+}
+
+.navigation{
+   display: flex;
+   text-align: center;
+   
+ 
+}
+
+
+.hidden{
+    display:flex;
+   align-items: center;
+} 
+
+.navigation ul li, .hidden ul li{
+    display: flex;
+    font-size: 14px;
+          
+}
+.navigation ul li, .hidden ul li a{
+     color:#a8b2d1;
+     text-decoration: none;
+       
+}
+.navigation ul li, .hidden ul li a:hover{
+color: #64ffda;
+}
+
+.navigation ul li, .hidden ul li a{
+    cursor: pointer;
+}
+ 
+
+.fadedown-enter-done{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navigation ul li a{
+text-decoration: none;
+color:#ccd6F6
+
+}  
+  
+
+.contener a span{
+    color:#64ffda;
+}
+
+
+  /* .contener button{
+      height: 40px;
+      width: 80px;
+     padding: 0 4;
+     font-size: 14px;
+     border: 1px solid #64ffda;
+     color: #64ffda;
+     background-color: #0a192F;;  
+ } */
+
+ .resume-button{
+     text-decoration: none;
+     background-color: transparent; 
+     border: 1px solid #64ffda;
+     border-radius: 4px;
+     line-height: 1;
+     margin-left: 16px;
+     font-size: 14px;
+     color: #64ffda;
+     cursor: pointer;
+     padding: 10px 10px;
+
+ }
+
+
+ /* .contener img{
+     height: 50px;
+     width:50px ;
+    
+ } */
+
+ .contener img{
+     display: flex;
+     -webkit-box-pack: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     align-items: center;
+     width: 50px;
+     height: 50px;
+     
+ }
+
+
+ .contener span {
+     padding: 0px 10px;
+ }
+
+ .contener-icon{
+     display: none;
+ }
+
+ .contener-icon i{
+     align-items: center; 
+     color: #64ffda;
+
+  }
+
+/* .socialsGrid{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+@media screen  and (max-width:768px){
+    .contener{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .navigation {
+         display: flex;
+}  
+.resume-button{
+    margin: 0px;
+}
+.navigation.hidden{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.visible{
+    display:none;
+
+}
+.contener nav{
+    /* border: 1px solid red; */
+     height: 100vh; 
+     
+
+}
+
+
+.contener{
+    display: flex;
+    
+     
+    
+} 
+.navigationcontener{
+    display: flex;
+    
+} 
+
+ 
+/* 
+.navigationcontener.active{
+ background: #112240;
+    left: 0px;
+    opacity: 1;
+     transition: all 0.5s ease; 
+    z-index: 1;  
+}   */
+
+/* .navigation ul{
+   display: flex; 
+   flex-direction: column;
+   justify-items: end;
+   width: 170px;
+   
+} */
+
+ .navigation ul li, .hidden ul li{
+    display: flex;
+    
+          
+}   
+
+
+.navigation ul li, .hidden ul li a{
+    display: flex;
+    
+} 
+
+.navigation ul li, .hidden ul li span{
+    display: flex;
+} 
+ .contener span {
+     display: flex;
+     
+ }
+
+.hidden {
+    display:flex;
+    flex-direction: column; 
+    position: absolute;
+    top:5px; 
+    right: 4Px;
+    opacity: 1; 
+    height:100vh;
+    width: 58vw;
+    background-color: #112240;
+    /* padding:10px; */
+    align-items: center;
+    justify-content: center;
+ 
+   
+    
+}
+
+ .hidden ul{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    
+
+} 
+.hidden ul li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 30px;
+    justify-content: center;
+    /* margin-top: 25px; */
+    /* align-items: center; */
+
+    
+}
+.contener-icon{
+    display: block;
+    position: absolute;
+     top: 0;
+    right:0;
+    transform: translate(-100%,60%); 
+    font-size: 1.8rem;
+    
+    
+    
+} 
+
+ .resume-button{
+     text-decoration: none;
+     background-color: transparent; 
+     border: 1px solid #64ffda;
+     border-radius: 4px;
+     line-height: 1;
+     
+     /* margin-left: 16px; */
+     
+
+ } 
+  
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
